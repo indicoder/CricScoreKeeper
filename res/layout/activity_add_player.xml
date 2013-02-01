@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPlayer" >
+
+    <TextView
+        android:id="@+id/player_first_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/add_player_label"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/activity_add_player_first_name" />
+
+    <EditText
+        android:id="@+id/player_first_name_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/player_first_name_label"
+        android:layout_alignBottom="@+id/player_first_name_label"
+        android:layout_alignLeft="@+id/add_player_label"
+        android:layout_marginLeft="14dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/add_player_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/activity_add_player_add_player"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/ok_button_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="savePlayer"
+        android:text="@string/activity_add_player_ok" />
+
+    <TextView
+        android:id="@+id/player_last_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/player_first_name_label"
+        android:layout_below="@+id/player_first_name_edit"
+        android:layout_marginTop="25dp"
+        android:text="@string/activity_add_player_last_name" />
+
+    <EditText
+        android:id="@+id/player_last_name_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/player_last_name_label"
+        android:layout_alignBottom="@+id/player_last_name_label"
+        android:layout_alignLeft="@+id/ok_button_label"
+        android:layout_marginLeft="22dp"
+        android:ems="10" 
+        android:inputType="textPersonName">
+
+        <requestFocus />
+    </EditText>
+  
+</RelativeLayout>

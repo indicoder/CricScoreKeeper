@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CricScoreKeeper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_player_selector">PlayerSelector</string>
+    <string name="title_activity_add_player">AddPlayer</string>
+    <string name="activity_add_player_add_player">Add Player</string>
+    <string name="activity_add_player_first_name">First Name</string>
+    <string name="activity_add_player_last_name">Last Name</string>
+    <string name="activity_add_player_ok">OK</string>
+    <string name="activity_player_selector_choose_player">Choose Players</string>
+
+</resources>
